@@ -1,0 +1,83 @@
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"42header.email": "fmontero@student.42madrid.com",
+	"42header.username": "fmontero",
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "relative",
+	"editor.fontSize": 16,
+
+	"vim.smartRelativeLine": true,
+	"vim.sneak": true,
+	"vim.easymotion": true,
+	"vim.leader": "<Space>",
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j", "k"],
+			"after": ["<ESC>"]
+		},
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<Leader>", "w"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["<Leader>", "q"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<Leader>", "p"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<Leader>", "0"],
+			"commands": ["workbench.action.focusSideBar"]
+		},
+		{
+			"before": ["<Leader>", "b"],
+			"commands": ["workbench.action.toggleSidebarVisibility"]
+		},
+		{
+			"before": ["<Leader>", "f"],
+			"commands": ["workbench.files.action.focusFilesExplorer"]
+		},
+		{
+			"before": ["<Leader>", "s"],
+			"after": ["<C-w>", "s"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<Leader>", "v"],
+			"after": ["<C-w>", "v"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<Leader>", "t", "o"],
+			"commands": [":tabonly"]
+		},
+		{
+			"before": ["<C-h>"],
+			"after": ["<C-w>", "h"]
+		},
+		{
+			"before": ["<C-j>"],
+			"after": ["<C-w>", "j"]
+		},
+		{
+			"before": ["<C-k>"],
+			"after": ["<C-w>", "k"]
+		},
+		{
+			"before": ["<C-l>"],
+			"after": ["<C-w>", "l"] 
+		},
+		{
+			"before": ["J"],
+			"after": ["5", "j"]
+		},
+		{
+			"before": ["K"],
+			"after": ["5", "k"]
+		},
+	],
+}
