@@ -42,6 +42,10 @@
 			"commands": ["workbench.files.action.focusFilesExplorer"]
 		},
 		{
+			"before": ["<Leader>", "t"],
+			"commands": ["workbench.action.terminal.toggleTerminal"]
+		},
+		{
 			"before": ["<Leader>", "s"],
 			"after": ["<C-w>", "s"],
 			"commands": ["workbench.action.quickOpen"]
@@ -52,7 +56,7 @@
 			"commands": ["workbench.action.quickOpen"]
 		},
 		{
-			"before": ["<Leader>", "t", "o"],
+			"before": ["<Leader>", "o"],
 			"commands": [":tabonly"]
 		},
 		{
